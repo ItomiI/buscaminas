@@ -1,13 +1,7 @@
 #include <iostream>
 #include <vector>
-#include <math.h>
 #include <conio.h>
-#include <chrono>
-#include <thread>
 #include "Funciones.hpp"
-
-using namespace std;
-using namespace std::chrono_literals;
 
 int main(){
 
@@ -86,11 +80,11 @@ int main(){
     }
   }
   if(gano){
-    std::cout << "ganaste" << endl;
+    std::cout << "ganaste" << std::endl;
   }else{
-    std::cout << "perdiste" << endl;
+    std::cout << "perdiste" << std::endl;
   }
-  std::cout << "ggs..." << endl;
+  std::cout << "ggs..." << std::endl;
   getch();
  
   
